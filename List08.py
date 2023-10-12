@@ -6,4 +6,10 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    return
+    a=fruits.count("apple")
+    k=0
+    while k<a:
+        k=k+1
+        fruits.remove("apple")
+    return fruits
+print(main( ["apple", "banana", "apple", "pear", "apple"]))
